@@ -1,6 +1,5 @@
 # AdvancedObjectOrientedProgramming
 
-Project 1
 Goal:
 Implemented a template using macro for a double-ended queue without using C++ features. As a
 template it can contain any type without using void* (which violates type safety). Deque was
