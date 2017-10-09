@@ -267,7 +267,6 @@ bool Deque_##t##_equal(Deque_##t deq1,Deque_##t deq2)\
 	int i=0;\
 	if(deq1.size(&deq1) != deq2.size(&deq2))\
 	{\
-		printf("\n Compare Size : %5d %5d",deq2.size(&deq2),deq1.size(&deq1));\
 		return false;\
 	}\
 	else\
@@ -277,20 +276,17 @@ bool Deque_##t##_equal(Deque_##t deq1,Deque_##t deq2)\
 		{\
 			if(deq1.comp(deq1.at(&deq1,i),deq2.at(&deq2,i)))\
 			{\
-			printf(" \nDq equal returning false size compare values : %5d %5d",(deq1.at(&deq1,i)),(deq2.at(&deq2,i)));\
 			return false;\
 			}\
 			else\
 			{\
 				if(!(deq1.comp(deq1.at(&deq1,i),deq2.at(&deq2,i)))&&!(deq1.comp(deq2.at(&deq2,i),deq1.at(&deq1,i))))\
 				{\
-					printf(" \nDq equal continuing :%5d %5d",(deq1.at(&deq1,i)),(deq2.at(&deq2,i)));\
-					continue;\
+				continue;\
 				}\
 				else\
 				{\
-					printf(" \nDq equal comparing values returning false :%5d %5d",(deq1.at(&deq1,i)),(deq2.at(&deq2,i)));\
-					return false;\
+				return false;\
 				}\
 			}\
 		}\
