@@ -8,6 +8,6 @@ STL map class from C++ Standard Library.
 2. Smart Pointer: Implemented a non-intrusive, thread-safe, exception-safe, reference-counting smart pointer similar to
 STL shared pointer using C++.
 
-Metaprogramming: 
 3. Implemented container Arbitrary Dimension Array Class Variadic Template that can be instantiated with any number of dimensions.
+
 4. Interpolate ostream which accepts arguments like Cs printf using C++17 features.
