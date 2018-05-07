@@ -7,9 +7,8 @@ key value pairs where key and value may be any types, including class type.
 -----------------------------------------------------------------------
 
 ## FILES INCLUDED:
-1. Interpolate.hpp : containes implementation of array api.
-2. test.cpp : contains comprehensive test provided by course instructor.
-3. Include Interpolate.hpp is your test code. The function name is cs540::Interpolate.
+1. Map.hpp : containes implementation of map api.
+3. Include Mapp.hpp in your test code. The function name is cs540::Map.
 -----------------------------------------------------------------------
 
 ## COMPILING THE CODE:
