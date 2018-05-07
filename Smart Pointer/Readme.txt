@@ -17,7 +17,6 @@ Correct output corresponding to the test file is given.
 -----------------------------------------------------------------------
 ## FILES INCLUDED:
 	1. SharedPtr.hpp : Implementation of Shared Pointer api.
-	2. test.cpp: Test code provided by course intructor.
 -----------------------------------------------------------------------
 
 ## COMPILING THE CODE:
